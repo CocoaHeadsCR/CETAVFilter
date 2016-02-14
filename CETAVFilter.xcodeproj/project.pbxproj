@@ -13,6 +13,7 @@
 		83A6CB401C71010900F1170B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A6CB3F1C71010900F1170B /* Assets.xcassets */; };
 		83A6CB431C71010900F1170B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A6CB411C71010900F1170B /* LaunchScreen.storyboard */; };
 		83A6CB4B1C71067400F1170B /* grumpy_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A6CB4A1C71067400F1170B /* grumpy_cat.jpg */; };
+		83A6CB501C710B5000F1170B /* FilterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A6CB4F1C710B5000F1170B /* FilterHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		83A6CB421C71010900F1170B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A6CB441C71010900F1170B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A6CB4A1C71067400F1170B /* grumpy_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grumpy_cat.jpg; sourceTree = "<group>"; };
+		83A6CB4F1C710B5000F1170B /* FilterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		83A6CB4D1C71097B00F1170B /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				83A6CB4F1C710B5000F1170B /* FilterHelper.swift */,
 			);
 			name = Helper;
 			sourceTree = "<group>";
@@ -165,6 +168,7 @@
 			files = (
 				83A6CB3B1C71010900F1170B /* ViewController.swift in Sources */,
 				83A6CB391C71010900F1170B /* AppDelegate.swift in Sources */,
+				83A6CB501C710B5000F1170B /* FilterHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
