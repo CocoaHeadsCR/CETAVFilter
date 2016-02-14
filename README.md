@@ -1,7 +1,7 @@
 # CETAVFilter
 Clase 3 de las clases de CocoaHeadsCr para CETAV
 
-`CETAVFIlter` es una App para aplicar filtros a una imagen. Despues de agregar la imagen puedes aplicar filtros por medio de un boton.
+`CETAVFilter` es una App para aplicar filtros a una imagen. Despues de agregar la imagen puedes aplicar filtros por medio de un boton.
 
 ![CETAVFilter](/Web/CETAVFilter.gif)
 
