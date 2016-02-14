@@ -31,10 +31,17 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="C0p-CQ-oYY"/>
-                        <barButtonItem title="Add Filter" id="Vk8-GL-AGI"/>
+                        <barButtonItem title="Add Filter" id="Vk8-GL-AGI">
+                            <connections>
+                                <action selector="applyFilterTouched:" destination="BYZ-38-t0r" id="rOQ-EC-8he"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="6Xc-h4-QOC"/>
                     </toolbarItems>
                     <navigationItem key="navigationItem" title="CETAV Filter" id="Uey-hR-liI"/>
+                    <connections>
+                        <outlet property="photoImageView" destination="n5j-Sm-fMp" id="A3y-C8-iaQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
