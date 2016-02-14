@@ -31,7 +31,7 @@
                     </view>
                     <toolbarItems>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="C0p-CQ-oYY"/>
-                        <barButtonItem title="Add Filter" id="Vk8-GL-AGI">
+                        <barButtonItem title="Apply Filter" id="Vk8-GL-AGI">
                             <connections>
                                 <action selector="applyFilterTouched:" destination="BYZ-38-t0r" id="rOQ-EC-8he"/>
                             </connections>
