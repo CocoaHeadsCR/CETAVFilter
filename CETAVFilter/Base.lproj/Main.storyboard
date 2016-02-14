@@ -23,6 +23,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <toolbarItems>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="C0p-CQ-oYY"/>
+                        <barButtonItem title="Add Filter" id="Vk8-GL-AGI"/>
+                        <barButtonItem style="plain" systemItem="flexibleSpace" id="6Xc-h4-QOC"/>
+                    </toolbarItems>
                     <navigationItem key="navigationItem" title="CETAV Filter" id="Uey-hR-liI"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
