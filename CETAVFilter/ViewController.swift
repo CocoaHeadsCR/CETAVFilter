@@ -29,8 +29,11 @@ class ViewController: UIViewController {
     @IBAction func applyFilterTouched(sender: AnyObject) {
         
         
+        let image = photoImageView.image!
         
+        let filteredImage =  filterHelper.applyFilter(image)
         
+        photoImageView.image = filteredImage
         
     }
 
