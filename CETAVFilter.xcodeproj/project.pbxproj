@@ -12,6 +12,7 @@
 		83A6CB3E1C71010900F1170B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A6CB3C1C71010900F1170B /* Main.storyboard */; };
 		83A6CB401C71010900F1170B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83A6CB3F1C71010900F1170B /* Assets.xcassets */; };
 		83A6CB431C71010900F1170B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83A6CB411C71010900F1170B /* LaunchScreen.storyboard */; };
+		83A6CB4B1C71067400F1170B /* grumpy_cat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83A6CB4A1C71067400F1170B /* grumpy_cat.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		83A6CB3F1C71010900F1170B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83A6CB421C71010900F1170B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83A6CB441C71010900F1170B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83A6CB4A1C71067400F1170B /* grumpy_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grumpy_cat.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		83A6CB371C71010900F1170B /* CETAVFilter */ = {
 			isa = PBXGroup;
 			children = (
+				83A6CB4A1C71067400F1170B /* grumpy_cat.jpg */,
 				83A6CB381C71010900F1170B /* AppDelegate.swift */,
 				83A6CB3A1C71010900F1170B /* ViewController.swift */,
 				83A6CB3C1C71010900F1170B /* Main.storyboard */,
@@ -122,6 +125,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83A6CB4B1C71067400F1170B /* grumpy_cat.jpg in Resources */,
 				83A6CB431C71010900F1170B /* LaunchScreen.storyboard in Resources */,
 				83A6CB401C71010900F1170B /* Assets.xcassets in Resources */,
 				83A6CB3E1C71010900F1170B /* Main.storyboard in Resources */,
