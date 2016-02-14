@@ -27,8 +27,11 @@ public class FilterHelper {
         //Creates the CI image
         let inputImage = CIImage(image: imageToFilter)
         
+        //Generates a random number
+        let randomNumber = Double(arc4random_uniform(300)+1)
+        
         //Adds the filter to the image
-        let filteredImage = inputImage!.imageByApplyingFilter("CIHueAdjust", withInputParameters: [kCIInputAngleKey:200])
+        let filteredImage = inputImage!.imageByApplyingFilter("CIHueAdjust", withInputParameters: [kCIInputAngleKey:randomNumber])
     
         //Renders the image
         let renderedImage = context.createCGImage(filteredImage, fromRect: filteredImage.extent)
