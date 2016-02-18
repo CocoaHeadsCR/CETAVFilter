@@ -12,7 +12,9 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var photoImageView: UIImageView!
     
-    let filterHelper:FilterHelper = FilterHelper()
+    lazy var filterHelper:FilterHelper = FilterHelper()
+    
+    lazy var shareHelper:ShareHelper = ShareHelper()
     
     
     override func viewDidLoad() {
@@ -28,18 +30,27 @@ class ViewController: UIViewController {
     
     @IBAction func applyFilterTouched(sender: AnyObject) {
         
+        if let image = photoImageView.image
+        {
         
-        let image = photoImageView.image!
+            let filteredImage =  filterHelper.applyFilter(image)
         
-        let filteredImage =  filterHelper.applyFilter(image)
-        
-        photoImageView.image = filteredImage
+            photoImageView.image = filteredImage
+        }
         
     }
 
     @IBAction func shareTouched(sender: AnyObject) {
         
+        if let image = photoImageView.image
+        {
         
+            let shareWindow = shareHelper.buildShareWindow(image)
+        
+            self.presentViewController(shareWindow, animated: true) { () -> Void in
+            //Add completion code
+            }
+        }
     }
 }
 
