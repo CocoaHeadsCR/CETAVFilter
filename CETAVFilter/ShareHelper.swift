@@ -17,12 +17,10 @@ public class ShareHelper
      
      - parameter image: <#image description#>
      */
-    public func buildShareWindowWithImage(image: UIImage) -> UIActivityViewController
+    public func buildShareWindowWithImage(image: UIImage, text:String = "Check out my cool image!") -> UIActivityViewController
     {
-
-        let textToShare = "Check out my cool image!"
         
-        let shareItems = [textToShare,image]
+        let shareItems = [text,image]
         
         let activityController = UIActivityViewController(activityItems: shareItems, applicationActivities: nil)
         

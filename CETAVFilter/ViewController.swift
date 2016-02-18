@@ -45,7 +45,7 @@ class ViewController: UIViewController {
         if let image = photoImageView.image
         {
         
-            let shareWindow = shareHelper.buildShareWindow(image)
+            let shareWindow = shareHelper.buildShareWindowWithImage(image)
         
             self.presentViewController(shareWindow, animated: true) { () -> Void in
             //Add completion code
