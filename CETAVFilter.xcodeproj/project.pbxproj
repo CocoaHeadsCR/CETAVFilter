@@ -26,6 +26,7 @@
 		83A6CB441C71010900F1170B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		83A6CB4A1C71067400F1170B /* grumpy_cat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = grumpy_cat.jpg; sourceTree = "<group>"; };
 		83A6CB4F1C710B5000F1170B /* FilterHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterHelper.swift; sourceTree = "<group>"; };
+		83D387631C766F68007E21BF /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		83A6CB2C1C71010900F1170B = {
 			isa = PBXGroup;
 			children = (
+				83D387631C766F68007E21BF /* Social.framework */,
 				83A6CB371C71010900F1170B /* CETAVFilter */,
 				83A6CB361C71010900F1170B /* Products */,
 			);
@@ -318,6 +320,7 @@
 				83A6CB491C71010900F1170B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

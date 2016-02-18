@@ -38,7 +38,13 @@
                         </barButtonItem>
                         <barButtonItem style="plain" systemItem="flexibleSpace" id="6Xc-h4-QOC"/>
                     </toolbarItems>
-                    <navigationItem key="navigationItem" title="CETAV Filter" id="Uey-hR-liI"/>
+                    <navigationItem key="navigationItem" title="CETAV Filter" id="Uey-hR-liI">
+                        <barButtonItem key="rightBarButtonItem" title="Share" id="NPK-NO-pwE">
+                            <connections>
+                                <action selector="shareTouched:" destination="BYZ-38-t0r" id="isJ-vB-UsT"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="photoImageView" destination="n5j-Sm-fMp" id="A3y-C8-iaQ"/>
                     </connections>
