@@ -17,7 +17,7 @@ public class ShareHelper
      
      - parameter image: <#image description#>
      */
-    public func buildShareWindow(image: UIImage) -> UIActivityViewController
+    public func buildShareWindowWithImage(image: UIImage) -> UIActivityViewController
     {
 
         let textToShare = "Check out my cool image!"
